@@ -1,0 +1,162 @@
+[
+    {
+      "id": 1,
+      "poster_path": "/images/movie-list/the-flash.jpeg",
+      "backdrop_path": "/images/movie-list/the-flash-single.jpeg",
+      "title": "The Flash",
+      "desc": "When his attempt to save his family inadvertently alters the future, Barry Allen becomes trapped in a reality in which General Zod has returned and there are no Super Heroes to turn to. In order to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?",
+      "youtubeId": "jprhe-cWKGs"
+    },
+    {
+      "id": 2,
+      "poster_path": "/images/movie-list/rise-of-the-beats.jpeg",
+      "backdrop_path": "/images/movie-list/rise-of-the-beats-single.jpeg",
+      "title": "Transformers: Rise of the Beasts",
+      "desc": "When a new threat capable of destroying the entire planet emerges, Optimus Prime and the Autobots must team up with a powerful faction known as the Maximals. With the fate of humanity hanging in the balance, humans Noah and Elena will do whatever it takes to help the Transformers as they engage in the ultimate battle to save Earth.",
+      "youtubeId": "itnqEauWQZM"
+    },
+    {
+      "id": 3,
+      "poster_path": "/images/movie-list/barbie.jpeg",
+      "backdrop_path": "/images/movie-list/barbie-single.jpeg",
+      "title": "Barbie",
+      "desc": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+      "youtubeId": "pBk4NYhWNMM"
+    },
+    {
+      "id": 4,
+      "poster_path": "/images/movie-list/the-little-mermaid-single.jpeg",
+      "backdrop_path": "/images/movie-list/the-little-mermaid-single.jpeg",
+      "title": "The Little Mermaid",
+      "desc": "The youngest of King Triton’s daughters, and the most defiant, Ariel longs to find out more about the world beyond the sea, and while visiting the surface, falls for the dashing Prince Eric. With mermaids forbidden to interact with humans, Ariel makes a deal with the evil sea witch, Ursula, which gives her a chance to experience life on land, but ultimately places her life – and her father’s crown – in jeopardy.",
+      "youtubeId": "kpGo2_d3oYE"
+    },
+    {
+      "id": 5,
+      "poster_path": "/images/movie-list/residental-evil-death-island.jpeg",
+      "backdrop_path": "/images/movie-list/residental-evil-death-island-single.jpeg",
+      "title": "Resident Evil Death Island",
+      "desc": "In San Francisco, Jill Valentine is dealing with a zombie outbreak and a new T-Virus, Leon Kennedy is on the trail of a kidnapped DARPA scientist, and Claire Redfield is investigating a monstrous fish that is killing whales in the bay. Joined by Chris Redfield and Rebecca Chambers, they discover the trail of clues from their separate cases all converge on the same location, Alcatraz Island, where a new evil has taken residence and awaits their arrival.",
+      "youtubeId": "L-vkuA8oqMY"
+    },
+    {
+      "id": 6,
+      "poster_path": "/images/movie-list/guardians-of-the.jpeg",
+      "backdrop_path": "/images/movie-list/guardians-of-the-single.jpeg",
+      "title": "Guardians of the Galaxy Vol. 3",
+      "desc": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+      "youtubeId": "JqcncLPi9zw"
+    },
+    {
+      "id": 7,
+      "poster_path": "/images/movie-list/ruby-gillman.jpeg",
+      "backdrop_path": "/images/movie-list/ruby-gillman-single.jpeg",
+      "title": "Ruby Gillman, Teenage Kraken",
+      "desc": "Ruby Gillman, a sweet and awkward high school student, discovers she's a direct descendant of the warrior kraken queens. The kraken are sworn to protect the oceans of the world against the vain, power-hungry mermaids. Destined to inherit the throne from her commanding grandmother, Ruby must use her newfound powers to protect those she loves most.",
+      "youtubeId": "u4uyD8FFUIw"
+    },
+    {
+      "id": 8,
+      "poster_path": "/images/movie-list/fast-x.jpeg",
+      "backdrop_path": "/images/movie-list/fast-x-single.jpeg",
+      "title": "Fast X",
+      "desc": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
+      "youtubeId": "eoOaKN4qCKw"
+    },
+    {
+      "id": 9,
+      "poster_path": "/images/movie-list/mavka.jpeg",
+      "backdrop_path": "/images/movie-list/mavka-single.jpeg",
+      "title": "Mavka — a Soul of the Forest",
+      "desc": "Mavka — a Soul of the Forest and its Warden — faces an impossible choice between love and her duty as guardian to the Heart of the Forest, when she falls in love with a human — the talented young musician Lukas.",
+      "youtubeId": "GXaMT5pX12w"
+    },
+    {
+      "id": 10,
+      "poster_path": "/images/movie-list/warhorse-one.jpeg",
+      "backdrop_path": "/images/movie-list/warhorse-one-single.jpeg",
+      "title": "Warhorse One",
+      "desc": "A gunned down Navy SEAL Master Chief must guide a child to safety through a gauntlet of hostile Taliban insurgents and survive the brutal Afghanistan wilderness.",
+      "youtubeId": "awpDl9eB6Tg"
+    },
+    {
+      "id": 11,
+      "poster_path": "/images/movie-list/knight-of-the-zodiac.jpeg",
+      "backdrop_path": "/images/movie-list/knight-of-the-zodiac-single.jpeg",
+      "title": "Knights of the Zodiac",
+      "desc": "When a headstrong street orphan, Seiya, in search of his abducted sister unwittingly taps into hidden powers, he discovers he might be the only person alive who can protect a reincarnated goddess, sent to watch over humanity. Can he let his past go and embrace his destiny to become a Knight of the Zodiac?",
+      "youtubeId": "Sko0o_KoBHY"
+    },
+    {
+      "id": 12,
+      "poster_path": "/images/movie-list/john-wick.jpeg",
+      "backdrop_path": "/images/movie-list/john-wick-single.jpeg",
+      "title": "John Wick: Chapter 4",
+      "desc": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+      "youtubeId": "qEVUtrk8_B4"
+    },
+    {
+      "id": 13,
+      "poster_path": "/images/movie-list/the-super-mario.jpeg",
+      "backdrop_path": "/images/movie-list/the-super-mario-single.jpeg",
+      "title": "The Super Mario Bros. Movie",
+      "desc": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+      "youtubeId": "TnGl01FkMMo"
+    },
+    {
+      "id": 14,
+      "poster_path": "/images/movie-list/sound-of-freedom.jpeg",
+      "backdrop_path": "/images/movie-list/sound-of-freedom-single.jpeg",
+      "title": "Sound of Freedom",
+      "desc": "The story of Tim Ballard, a former US government agent, who quits his job in order to devote his life to rescuing children from global sex traffickers.",
+      "youtubeId": "Rt0kp4VW1cI"
+    },
+    {
+      "id": 15,
+      "poster_path": "/images/movie-list/elemental.jpeg",
+      "backdrop_path": "/images/movie-list/elemental-single.jpeg",
+      "title": "Elemental",
+      "desc": "In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy will discover something elemental: how much they have in common.",
+      "youtubeId": "hXzcyx9V0xw"
+    },
+    {
+      "id": 16,
+      "poster_path": "/images/movie-list/le-leyenda.jpeg",
+      "backdrop_path": "/images/movie-list/le-leyenda-single.jpeg",
+      "title": "La Leyenda de los Chaneques",
+      "desc": "Five years after giving up his powers and separating from his friends, Leo San Juan has started a new life trying to focus on his family and their bakery, staying away from danger and adventures. However, Leo knows that his plans are rarely fulfilled and this time is no exception: while traveling with Nando to Veracruz, things start to get weird, and from the depths of the Tuxtlas jungle, an ancient curse has returned and only Leo can face it.",
+      "youtubeId": "zucwp4eKqLs"
+    },
+    {
+      "id": 17,
+      "poster_path": "/images/movie-list/oppenheimer.jpeg",
+      "backdrop_path": "/images/movie-list/oppenheimer-single.jpeg",
+      "title": "Oppenheimer",
+      "desc": "The story of J. Robert Oppenheimer’s role in the development of the atomic bomb during World War II.",
+      "youtubeId": "uYPbbksJxIg"
+    },
+    {
+      "id": 18,
+      "poster_path": "/images/movie-list/insidious.jpeg",
+      "backdrop_path": "/images/movie-list/insidious-single.jpeg",
+      "title": "Insidious: The Last Key",
+      "desc": "Parapsychologist Elise Rainier and her team travel to Five Keys, NM, to investigate a man’s claim of a haunting. Terror soon strikes when Rainier realizes that the house he lives in was her family’s old home.",
+      "youtubeId": "acQyrwQyCOk"
+    },
+    {
+      "id": 19,
+      "poster_path": "/images/movie-list/spider-man.jpeg",
+      "backdrop_path": "/images/movie-list/spider-man-single.jpeg",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "desc": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse’s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+      "youtubeId": "cqGjhVJWtEg"
+    },
+    {
+      "id": 20,
+      "poster_path": "/images/movie-list/fresh.jpeg",
+      "backdrop_path": "/images/movie-list/fresh-single.jpeg",
+      "title": "Fresh",
+      "desc": "Frustrated by scrolling dating apps only to end up on lame, tedious dates, Noa takes a chance by giving her number to the awkwardly charming Steve after a produce-section meet-cute at the grocery store.",
+      "youtubeId": "wKk5VAK1GZQ"
+    }
+  ]

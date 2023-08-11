@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "imageUrl": "/images/latest-movie-slider/slide-1.png",
+      "caption": "Dare Devil",
+      "youtubeId": "jAy6NJ_D5vU"
+    },
+    {
+      "id": 2,
+      "imageUrl": "/images/latest-movie-slider/slide-2.png",
+      "caption": "Anek",
+      "youtubeId": "Vhldo272vO8"
+    },
+    {
+      "id": 3,
+      "imageUrl": "/images/latest-movie-slider/slide-3.png",
+      "caption": "A Serbian film",
+      "youtubeId": "ddwrbcMmzlc"
+    }
+  ]

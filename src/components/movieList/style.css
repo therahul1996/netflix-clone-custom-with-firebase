@@ -1,0 +1,57 @@
+.movie-heading{
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.movieList ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.movieList ul li{
+    width: 33.3%;
+}
+.card{
+    border-radius: 17px;
+    margin: 10px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+.card img{
+   width: 100%;
+    border-radius: 17px;
+    height: 100%;
+    object-fit: cover;
+}
+.movieDetails{
+    position: absolute;
+    padding: 15px;
+    bottom: -100%;
+    left: 10px;
+    right: 10px;
+    background: rgba(255,255,255,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 17px;
+}
+.movieDetails h3{
+  margin: 0;
+  color: #000;
+}
+.card:hover .movieDetails{
+    bottom: 10px;
+    transition: all .4s ease-in-out;
+}
+@media(max-width: 991px) {
+    .movieList ul li{
+        width: 50%;
+    }
+}
+@media(max-width: 767px) {
+    .movieList ul li{
+        width: 100%;
+    }
+}
