@@ -61,7 +61,7 @@ const Signup = () => {
             <div className="input-container">
               <input type={showPassword ? "text" : "password"} value={password} onChange={(event) => setPassword(event.target.value)} />
               <label className={password && 'filled'} >{t('password')}</label>
-              <button className='password-btn' onClick={togglePassword}>{showPassword ? `${t('hide')}` : `${t('show')}`}</button>
+              <div className='password-btn' onClick={togglePassword}>{showPassword ? `${t('hide')}` : `${t('show')}`}</div>
             </div>
             </div>
             <button className='btn-primary-signin' type='submit' disabled={submitButtonDisabled}>{t('sign_up')} <div className="lds-ring"></div></button>
