@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 import Hero from '../components/Hero'
 import Arrow from '../img/right-arrow.svg'
 import Screen1 from '../img/screen-1.png'
@@ -12,15 +13,21 @@ import contentBoxImg from '../img/c-box-img.png'
 import downloadIcon from '../img/download-icon.gif'
 import Accordion from '../components/Accordion' 
 const Home = () => {
-  const [value, setValue] = useState('');
-
+  const [email, setEmail] = useState('');
+  const navigate = useNavigate();
   function handleChange(e) {
-    setValue(e.target.value);
+    setEmail(e.target.value);
   }
   const { t, ready } = useTranslation();
   if (!ready) return "loading translations...";
   const accordionData = t("accordionData", { returnObjects: true });
-
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if(!email) {
+      return;
+    }
+    navigate(`/signup`);
+  };
   return (
     <>
       <Hero />
@@ -133,12 +140,12 @@ const Home = () => {
             )
           })}
            <p>{t('hero_heading3')}</p>
-        <form className='search-bar'>
+        <form className='search-bar' onSubmit={handleSubmit}>
             <div className="input-container">
-                <input type="text" onChange={handleChange} />
-                <label className={value && 'filled'} >{t('email_address')}</label>
+                <input type="email" value={email} onChange={handleChange} />
+                <label className={email && 'filled'} >{t('email_address')}</label>
               </div>
-            <button className='btn-primary-second'>{t('get_started')}
+            <button className='btn-primary-second' type='submit'>{t('get_started')}
             <img src={Arrow} alt='right-arrow' className='r-arrow' /></button>
         </form>
         </div>

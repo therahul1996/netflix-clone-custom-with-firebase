@@ -16,7 +16,7 @@ const LanguageDropdown = () => {
   return (
     <div className='language-dropdown'>
     <MdLanguage className='ld-icon'  />
-    <select className="language-select" onChange={handleChange}>
+    <select className="language-select" onChange={handleChange} value={lang}>
         {languages.map((language) => (
         <option key={language.code} value={language.code}>
             {language.title}

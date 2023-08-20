@@ -132,6 +132,7 @@ header
   font-size: 15px;
   color: #fff;
   border: 0;
+  cursor: pointer;
 }
 .nav-right{
   display: flex;
@@ -286,7 +287,7 @@ hero section
     background-color: #00000047;
     background: #00000047;
     min-width: 351px;
-    border: 1px solid #fff;
+    border: 0.1px solid #fff;
 
 }
 
@@ -637,7 +638,27 @@ signin page
 .learnDesc p a:hover{
   text-decoration: underline;
 }
-
+.input-container:hover .password-btn{
+  visibility: visible;
+  opacity: 1;
+}
+.password-btn{
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  padding: 0 15px;
+  border: 0;
+  cursor: pointer;
+  background-color: #292929;
+  color: #ccc;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 0 0.25rem 0.25rem 0;
+  visibility: hidden;
+  opacity: 0;
+}
 /* -------------------------------------
 Spinner
 ------------------------------------- */

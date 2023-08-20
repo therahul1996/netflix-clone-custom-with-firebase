@@ -33,7 +33,6 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/signin" element={<Signin />} />
         <Route exact path="/signup" element={<Signup />} />
-        <Route exact path="/signup" element={<Signup />} />
         <Route exact path="/movie" element={<Movie isLogin={userLogin} />} />
         <Route exact path="/movie/:id" element={<SingleMovie />} />
         <Route exact path="/forgotPassword" element={<ForgotPassword />} />
