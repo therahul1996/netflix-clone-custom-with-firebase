@@ -1,6 +1,6 @@
 import "./App.css";
-import React, {useEffect, useState} from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, {useEffect, useState, useContext} from 'react'
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 // import ProtectedRoute from './ProtectedRoute'
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -14,7 +14,18 @@ import { auth } from './firebase'
 import SingleMovie from "./pages/SingleMovie";
 import PageNotFound from "./pages/PageNotFound";
 import ScrollToTop from "./components/scroll/ScrollToTop";
+import AuthContext from "./context/AuthContext"
 function App() {
+  const { currentUser } = useContext(AuthContext);
+
+  const ProtectedRoute = ({ children }) => {
+    if (!currentUser) {
+      return <Navigate to="/signin" />;
+    }
+
+    return children
+  };
+
   const [userLogin, setUserLogin] = useState("")
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
@@ -33,10 +44,14 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/signin" element={<Signin />} />
         <Route exact path="/signup" element={<Signup />} />
-        <Route exact path="/movie" element={<Movie isLogin={userLogin} />} />
+        <Route exact path="/movie" element={
+        <ProtectedRoute>
+        <Movie />
+      </ProtectedRoute>
+      } />
         <Route exact path="/movie/:id" element={<SingleMovie />} />
         <Route exact path="/forgotPassword" element={<ForgotPassword />} />
-        <Route exact path="/pageNotFound" element={<PageNotFound />} />
+        <Route exact path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>
