@@ -5,4 +5,4 @@ This is a React-based Netflix clone that empowers users to explore content in a 
 [Live Demo](https://netflix-clone-custom.netlify.app/).
 
 
-![Uploading screencapture-netflix-clone-custom-netlify-app-2023-08-30-01_02_30.png…]()
+![Uploading Screenshot 2023-08-30 at 1.05.18 AM.png…]()
