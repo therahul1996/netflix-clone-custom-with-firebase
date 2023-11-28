@@ -15,7 +15,7 @@ const Hero = () => {
     if(!email) {
       return;
     }
-    navigate(`/signup`);
+    navigate(`/signup?email=${encodeURIComponent(email)}`);
   };
   return (
     <>

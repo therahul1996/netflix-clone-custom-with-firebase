@@ -3,15 +3,21 @@ import { useTranslation } from 'react-i18next';
 import { Link, useNavigate } from 'react-router-dom'
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth'
 import { auth } from '../firebase'
+import { useLocation } from 'react-router-dom';
+
 const Signup = () => {
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const getEmail = queryParams.get('email');
   const [showPassword, setShowPasssword] = useState(false);
   const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState(getEmail);
   const [password, setPassword] = useState('');
   const { t } = useTranslation();
   const navigate = useNavigate();
   const [errorMessaage, setErrorMessage] = useState("")
   const [submitButtonDisabled, setSubmitButtonDisabled] = useState(false)
+
   
   const handleSubmit = (e) => {
     e.preventDefault();

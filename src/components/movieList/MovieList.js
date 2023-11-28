@@ -2,7 +2,7 @@ import React from 'react'
 // import TrendingMovies from './TrendingMovies'
 import PopularMovies from './PopularMovies'
 import './style.css'
-// https://api.themoviedb.org/3/trending/all/day?api_key=3c329898c4eabee70083c109dbc93ba6
+// https://api.themoviedb.org/3/trending/all/day?api_key=process.env.REACT_APP_THE_MOVIE_DB
 const MovieList = () => {
 
   return (
